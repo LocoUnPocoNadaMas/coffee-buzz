@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a4c0fd2e0c69c4ea56d22250b4eedf, type: 3}
+  m_Name: ItemsDatabase
+  m_EditorClassIdentifier: 
+  Items:
+  - <Name>k__BackingField: cutting table
+    <Prefab>k__BackingField: {fileID: 3866646606047609344, guid: 77097de7e07b8ed4093fa78b02dea11a, type: 3}
+  - <Name>k__BackingField: fruit intake
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: 3c2a0d13b48fe4343801b576f9eb6fa3, type: 3}
+  - <Name>k__BackingField: fruit empty
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: c85583d11332c90488e1450ccbee4b50, type: 3}
+  - <Name>k__BackingField: fruit racks
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: ab677f58a7d0a5541a3cf398022c2040, type: 3}
+  - <Name>k__BackingField: intake tube
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: 1f5d51db1a8b4f24d907e49abe67eae6, type: 3}
+  - <Name>k__BackingField: knife
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: 550a378598a718f44b2a2fdc7da4a2a7, type: 3}
+  - <Name>k__BackingField: table silver
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: 380433259c308ff449f2975fc62b06b5, type: 3}

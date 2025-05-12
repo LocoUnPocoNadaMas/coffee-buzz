@@ -375,6 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btnPrefab: {fileID: 5215452764145183984, guid: 1c3d6ed6156f49a4c81fd4a57e42f3dc, type: 3}
   content: {fileID: 1039489903}
+  database: {fileID: 11400000, guid: c9cb5ee35296e34409f2af13cc06ed38, type: 2}
 --- !u!1 &203013055
 GameObject:
   m_ObjectHideFlags: 0

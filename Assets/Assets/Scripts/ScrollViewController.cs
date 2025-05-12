@@ -1,6 +1,9 @@
+using System.Collections;
 using Assets.Scripts.Model;
+using TMPro;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -8,17 +11,20 @@ namespace Assets.Scripts
     {
         [SerializeField] private GameObject btnPrefab;
         [SerializeField] private RectTransform content;
-        private DataItem _dataItem;
+        [SerializeField] private ItemsDatabaseSo database;
         
         
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
             content = GameObject.Find("Content").GetComponent<RectTransform>();
-            for (int i = 0; i < 10; i++)
+
+            foreach (var item in database.Items)
             {
-                
-                GameObject newButton = Instantiate(btnPrefab, content);
+                TextMeshProUGUI txtName = btnPrefab.transform.Find("TxtNameItem").GetComponent<TextMeshProUGUI>();
+                txtName.text = item.Name;
+                Image imgPreview = btnPrefab.transform.Find("ImgPreviewItem").GetComponent<Image>();
+                GameObject btnInstance = Instantiate(btnPrefab, content);
             }
         }
 
